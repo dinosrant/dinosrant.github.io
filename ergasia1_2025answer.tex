@@ -1,0 +1,51 @@
+\documentclass{article} 
+\title{tasks 1}
+\begin{document} 
+\maketitle
+\LARGE{\centerline{Exercise 1.}}
+\Large{\leftline{A)}}
+\LARGE{\leftline{$(1 + x^4)yy'$ - $x^3(y^2 + 1) = 0 $}}
+\LARGE{\leftline{$ Y(1)=1 $}}
+\LARGE{\leftline{$(1 + x^4)yy'$ - $x^3(y^2 + 1) = 0 =>$}
+\leftline{$(1 + x^4)y\frac{dy}{dx}$ - $x^3(y^2 + 1) = 0 =>$}
+\leftline{$(1 + x^4)y\frac{dy}{dx} = x^3y^2 + x^3 =>$}
+\leftline{$(1 + x^4)\frac{dy}{dx} = x^3y + \frac{x^3}{y}  =>$}
+\leftline{$(1 + x^4)\frac{dy}{dx} = x^3\frac{y + 1}{y}  =>$}
+\leftline{$(1 + x^4)\frac{dy}{dx} = x^3\frac{y ^2 + 1}{y}  =>$}
+\leftline{$\frac{y}{y ^2 + 1}by = \frac{x^3}{1 + x^4}dx  =>$}
+\leftline{$\int \frac{y}{y ^2 + 1}by = \int \frac{x^3}{1 + x^4}dx +c =>$}
+\leftline{$\frac{1}{2}\int \frac{2y}{y ^2 + 1}by = \frac{1}{4}\int \frac{4x^3}{1 + x^4}dx +c =>$}
+\leftline{$\frac{1}{2}ln|y ^2 + 1| = \frac{1}{4}ln|1 + x^4| +c =>(1)$}
+\centerline{$y ^2 + 1 > 0(2)$              $1 + x^4 > 0 (3) $}
+\leftline{$(1)(2)(3)=>\frac{1}{2}ln(y ^2 + 1) = \frac{1}{4}ln(1 + x^4) +c =>$}
+\leftline{$ln(y ^2 + 1) = \frac{1}{2}ln(1 + x^4) +2c =>$}
+\leftline{$y ^2 + 1 = e^{\frac{1}{2}ln(1 + x^4)}e^{2c} =>$}
+\leftline{$y ^2  = e^{ln(\sqrt{1 + x^4})}e^{2c} - 1 =>$}
+\leftline{$y ^2  = \sqrt{1 + x^4}e^{2c} - 1 => (e^{2c}=K)$}
+\leftline{$y ^2  = \sqrt{1 + x^4}K - 1 => (4) $}
+\leftline{$Y(1) = 1 =>1 = \sqrt{2}K -1 => 2 = \sqrt{2}K => \frac{2\sqrt{2}}{2} = K =>$}
+\leftline{$=> K=\sqrt{2} => (5)$}
+\leftline{$(5)(4)=>y ^2  = \sqrt{1 + x^4}\sqrt{2} - 1 => $}
+\leftline{$y ^2  = \sqrt{2 + 2x^4} - 1 => $}
+\leftline{$y  =  \sqrt{\sqrt{2 + 2x^4} - 1} $}
+}
+\Large{\leftline{B)}}
+\LARGE{\leftline{$y'=\frac{2xy - y^2}{3x^2 + 2xy}$}
+\leftline{$y' = \frac{dy}{dx} = \frac{2\frac{y}{x} + (\frac{y}{x})^2}{3 + 2\frac{y}{x}} = $}
+\leftline{$=(u=\frac{y}{x}) = \frac{2u + u^2}{3 + 2u} = (1) $}
+\leftline{$y = xu => y' = u + xu' (2) $}
+\leftline{$ (1)(2) =>u + xu' = \frac{2u + u^2}{3 + 2u} => $}
+\leftline{$\frac{du}{dx} = \frac{2u + u^2}{3x + 2ux} $ - $\frac{u}{x}=> $}
+\leftline{$\frac{du}{dx} = \frac{2u + u^2 - u(3 + 2u)}{x(3 + 2u)} =>$}
+\leftline{$\frac{du}{dx} = \frac{-u - u^2}{x(3 + 2u)} =>$}
+\leftline{$\frac{3 + 2u}{-u - u^2}du = \frac{1}{x}dx =>$}
+\leftline{$-\int\frac{3 + 2u}{u + u^2}du = \int\frac{1}{x}dx +c=>$}
+\leftline{$-\int\frac{3 + 2u}{u(1 + u)}du = \int\frac{1}{x}dx +c=>(3)$}
+
+
+
+
+
+
+}
+\end{document}
